@@ -1,0 +1,11 @@
+.hov1:hover{
+    background-color: rgb(204, 194, 194);
+}
+table{
+    border:2px solid black;
+    border-collapse: collapse;
+}
+
+hr{
+    border-bottom: 2px solid black;
+}

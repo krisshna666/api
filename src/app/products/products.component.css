@@ -1,0 +1,42 @@
+.flexos{
+    display: flex;
+    
+    
+   
+}
+.genprod{
+    /* background-color: white; */
+    width: 450px;
+    height: 40px;
+   
+}
+::placeholder{
+    font-size: 0.7em;
+}
+.go{
+    display: none;
+}
+.stop{
+    display: block;
+}
+option{
+    font-size: 1em;
+}
+select{
+    font-size: 1em;
+}
+.proddata{
+    background-color:#00a1e0;
+    width: 440px;
+    border-radius:0px 5px 0px 0px;
+    
+}
+.red{
+  border:#00a1e0;
+}
+.main{
+    background-color:white;
+    margin-left: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.6);
+}

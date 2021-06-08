@@ -1,0 +1,33 @@
+<h1 style="margin-left:500px;">Welcome to Kirkland house</h1>
+<table style="margin-left: 20px;">
+  <span style="display: flex;gap:150px;padding-top:20px">
+        <h2>Pictures</h2>
+        <h2>Name</h2>
+        <h2>Email</h2>
+        <h2>City</h2>
+  </span>
+  <hr>
+<div  *ngFor="let item of data" style="display: flex;gap:30px;border-bottom: 2px solid black;">
+    <div>{{item.id}}</div>
+
+    <img style="padding:20px ;" width="150px" height="150px" src="{{item.url}}">
+    <div style="display:flex;flex-direction: column;grid-gap: 10px;border-left: 2px solid black;">
+    <div style="margin-left: 10px;" *ngFor="let items1 of data2">{{items1.name}}</div>
+    </div>
+    <div style="display:flex;flex-direction: column;grid-gap: 10px;border-left: 2px solid black;">
+        <div style="margin-left: 10px;" *ngFor="let items1 of data2">{{items1.email}}</div><hr>
+        <br><br>
+        </div>
+        <div style="display:flex;flex-direction: column;grid-gap: 10px;border-left: 2px solid black;">
+            <div style="margin-left: 10px;" *ngFor="let items1 of data2">{{items1.address.city}}</div><hr>
+            <br><br>
+            </div>
+            
+           
+       
+    <hr style="border-top: 2px solid black;">
+</div>
+
+</table>
+
+

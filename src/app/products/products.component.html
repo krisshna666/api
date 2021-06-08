@@ -1,0 +1,143 @@
+<div class="main" >
+<div id="mainer" [ngClass]="islucks?'go':'stop'">
+<div class="flexos">
+<div class="genprod">
+<div style="margin-top: 10px;margin-left: 100px;color: gray;">General product details</div>
+</div>
+<div class="proddata">
+    <div style="margin-top: 10px;margin-left: 200px;color: white;">Product data</div>
+</div>
+</div>
+<div>
+    
+</div>
+<div style="margin-left: 30px;" >
+    <div class="flexos" style="gap: 60px; ">
+        <div style="display: flex;flex-direction: column;">
+    <div>SKU</div>
+    <br>
+    <input style="width: 400px;" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="IEU ELECTRONICA IE1012EH">
+</div>
+<div style="display: flex;flex-direction: column; ">
+    <div>Technology</div>
+    <br>
+   
+      
+    
+    <select id="tech" style="width: 300px;" class="form-control">
+        <option>Select a technology</option>
+        <option>React JS</option>
+        <option>Angular</option>
+        <option>Vue JS</option>
+        <option>Three JS</option>
+      </select>
+</div>
+
+</div><br>
+<div class="flexos" style="gap:60px">
+<div class="flexos" style="gap:10px">
+    <div style="display: flex;flex-direction: column;">
+<div>Category&nbsp;<i class="fa fa-question-circle" aria-hidden="true"></i></div><br>
+<select id="category" style="width: 200px;" class="form-control">
+    <option>Select a category</option>
+    <option>IT domain</option>
+    <option>supportdesk</option>
+    <option>associate</option>
+    <option>data engineer</option>
+  </select>
+</div>
+<div style="display: flex;flex-direction: column;">
+<div>Sub category&nbsp;<i class="fa fa-question-circle" aria-hidden="true"></i></div><br>
+
+  
+
+<select style="width: 200px;" class="form-control">
+    <option>Select a subcategory</option>
+    <option>developer</option>
+    <option>Analyst</option>
+    <option>Data Scientist</option>
+    <option>Illustrator</option>
+  </select>
+</div>
+</div>
+<div style="display: flex;flex-direction: column;">
+<div>Format&nbsp;<i class="fa fa-question-circle" aria-hidden="true"></i></div><br>
+
+  
+
+<select id="format" style="width: 300px;" class="form-control">
+    <option>Select a format</option>
+    <option>PNG</option>
+    <option>JPEG</option>
+    <option>.MOV</option>
+    <option>.MP4</option>
+  </select>
+</div>
+</div>
+</div><br>
+<div class="flexos" style="gap:75px">
+    <div style="display: flex;flex-direction: column; margin-left: 30px;">
+        <div>Price list&nbsp;<i class="fa fa-question-circle" aria-hidden="true"></i></div><br>
+        
+          
+        
+        <select id="price" style="width: 400px;" class="form-control">
+            <option>Select a price list</option>
+            <option>25$</option>
+            <option>10$</option>
+            <option>15$</option>
+            <option>30$</option>
+          </select>
+        </div>
+        <div class="flexos" style="gap: 10px;">
+    <div style="display: flex;flex-direction: column;">
+<div>Collection&nbsp;<i class="fa fa-question-circle" aria-hidden="true"></i></div><br>
+<select class="form-control">
+    <option>Select a collection</option>
+    <option>Web</option>
+    <option>Android</option>
+    <option>IOS</option>
+    <option>Windows</option>
+  </select>
+</div>
+<div style="display: flex;flex-direction: column; ">
+<div>Icons&nbsp;<i class="fa fa-question-circle" aria-hidden="true"></i></div><br>
+
+  
+
+<select class="form-control">
+    <option>No of icons</option>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+  </select>
+  </div>
+</div>
+</div><br>
+<div class="flexos" style="flex-direction: column; margin-left: 30px;">
+    <div>Icons&nbsp;<i class="fa fa-question-circle" aria-hidden="true"></i></div><br>
+
+  
+
+    <select style="width: 400px;" class="form-control">
+        <option>No of icons</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+      <div style="text-align: right; padding: 10px;">
+        <a [routerLink]="['/navi']" ><button  (click)="krish()"  type="button" class="btn btn-primary" onclick="krishna()">Add products</button></a>
+        </div>
+      </div>
+</div>
+
+
+<router-outlet></router-outlet>
+
+</div>
+
+
+
+

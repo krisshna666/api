@@ -1,0 +1,74 @@
+#flexos{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+}
+div i:hover{
+    background-color: blue;
+
+}
+#flexos2:hover{
+    background-color: blue;
+}
+.dark{
+    display: none;
+}
+.bright{
+    display: block;
+}
+
+.flexos2{
+    display: flex;
+    padding-right: 20px;
+
+}
+div a{
+    text-decoration: none;
+    color: white;
+}
+#contents div:hover{
+    background-color: gray;
+
+}
+#flexcols{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+ 
+}
+::placeholder{
+    font-size: 0.8em;
+}
+#contents{
+    display: none;
+    position: absolute;
+    background-color: black;
+}
+
+#main{
+    position: relative;
+}
+#main:hover #contents{
+    display: block;
+}
+/* div a{
+    text-decoration: none;
+} */
+.circle{
+    background-color: #ebf4fb;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 180px;
+    margin-top: 3px;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
