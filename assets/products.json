@@ -1,0 +1,5 @@
+[
+    {"ProductID":7681,"SKU":"HEH-9133","Name":"AWS","Technology":"Devops","Price":"25$","Format":"0E4","Category":"IT"},
+    {"ProductID":7682,"SKU":"HEH-9136","Name":"Azure","Technology":"Full-stack","Price":"15$","Format":"1E66","Category":"Data"},
+    {"ProductID":7683,"SKU":"HEH-9139","Name":"Microsoft","Technology":"engineer","Price":"10$","Format":"S321","Category":"Helpdesk"}
+]
